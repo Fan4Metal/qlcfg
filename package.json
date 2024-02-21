@@ -1,0 +1,22 @@
+{
+    "name": "qlcfg",
+    "displayName": "Quake Live config",
+	"description": "Quake Live config files hightlighting",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": ">=0.9.0-pre.1"
+    },
+    "publisher": "Fan4_Metal",
+    "contributes": {
+        "languages": [{
+            "id": "qlcfg",
+            "aliases": ["Quake Live config", "qlcfg"],
+            "extensions": [".cfg"]
+        }],
+        "grammars": [{
+            "language": "qlcfg",
+            "scopeName": "source.qlcfg",
+            "path": "./syntaxes/qlcfg.plist"
+        }]
+    }
+}
