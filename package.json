@@ -11,7 +11,8 @@
         "languages": [{
             "id": "qlcfg",
             "aliases": ["Quake Live config", "qlcfg"],
-            "extensions": [".cfg"]
+            "extensions": [".cfg"],
+            "configuration": "./language-configuration.json"
         }],
         "grammars": [{
             "language": "qlcfg",
