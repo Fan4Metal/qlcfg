@@ -123,12 +123,6 @@
           <key>name</key>
           <string>comment.qlcfg</string>
         </dict>
-        <dict>
-          <key>match</key>
-          <string>([^\s])</string>
-          <key>name</key>
-          <string>invalid.qlcfg</string>
-        </dict>
        </array>
     </dict>
     <key>main__1</key>
