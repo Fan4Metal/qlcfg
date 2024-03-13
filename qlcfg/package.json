@@ -19,5 +19,6 @@
             "scopeName": "source.qlcfg",
             "path": "./syntaxes/qlcfg.plist"
         }]
-    }
+    },
+    "icon": "images/logo.png"
 }
