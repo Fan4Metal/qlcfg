@@ -1,12 +1,18 @@
 {
     "name": "qlcfg",
     "displayName": "Quake Live config",
-	"description": "Quake Live config files syntax highlighting",
+    "description": "Syntax highlighting for Quake Live (.cfg) configuration files: console commands, server/client/game/engine cvars, minqlx plugin cvars, bind key names, comments and strings.",
     "version": "0.0.1",
     "engines": {
         "vscode": ">=0.9.0-pre.1"
     },
     "publisher": "Fan4_Metal",
+    "categories": ["Programming Languages"],
+    "keywords": ["Quake Live", "quake", "cfg", "config", "minqlx", "cvars"],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Fan4Metal/qlcfg.git"
+    },
     "contributes": {
         "languages": [{
             "id": "qlcfg",
